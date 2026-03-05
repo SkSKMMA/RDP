@@ -3,8 +3,8 @@ on:
   workflow_dispatch:
 jobs:
   secure-rdp:
-    runs-on: windows-2025
-    timeout-minutes: 3600
+    runs-on: windows-latest
+    timeout-minutes: 360
     steps:
       - name: Ownership Verification (Encoded)
         run: |
